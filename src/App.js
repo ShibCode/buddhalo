@@ -8,7 +8,7 @@ import "./App.css";
 
 const App = () => {
   return (
-    <div>
+    <div style={{ overflowX: "hidden" }}>
       <Header />
       <main>
         <Home />
