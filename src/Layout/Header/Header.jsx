@@ -42,7 +42,7 @@ const Header = () => {
               className="header__link"
               onClick={() => setHamOpen(false)}
             >
-              Link 1
+              视觉形象
             </a>
 
             <a
@@ -50,7 +50,7 @@ const Header = () => {
               className="header__link"
               onClick={() => setHamOpen(false)}
             >
-              Link 2
+              路线
             </a>
 
             <a
@@ -58,7 +58,7 @@ const Header = () => {
               className="header__link"
               onClick={() => setHamOpen(false)}
             >
-              Link 3
+              团队
             </a>
           </div>
 
@@ -71,7 +71,13 @@ const Header = () => {
             <img src={openSea} alt="open sea" className="header__social" />
           </div>
 
-          <button className="header__btn">Lorem</button>
+          <a
+            target={"blank"}
+            href="http://meta.cangfuwenhua.cn"
+            className="header__btn"
+          >
+            立即参与
+          </a>
         </div>
       </div>
     </div>
