@@ -31,6 +31,7 @@
 .header__socials {
   display: flex;
   gap: 2rem;
+  align-items: center;
 }
 
 .header__link {
@@ -46,8 +47,6 @@
 
 .header__social {
   color: white;
-  font-size: 30px;
-  height: 36px;
   width: 36px;
   cursor: pointer;
   transition: transform 0.15s;

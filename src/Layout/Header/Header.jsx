@@ -9,6 +9,8 @@ import { faBars, faClose } from "@fortawesome/free-solid-svg-icons";
 
 import openSea from "../../Assets/opensea.png";
 import etherScan from "../../Assets/etherscan.png";
+import discord from "../../Assets/discord.png";
+import twitter from "../../Assets/twitter.png";
 
 import "./Header.css";
 
@@ -63,12 +65,25 @@ const Header = () => {
           </div>
 
           <div className="header__socials">
-            <FontAwesomeIcon icon={faDiscord} className="header__social" />
+            <a href="#">
+              <img src={discord} alt="discord" className="header__social" />
+            </a>
 
-            <FontAwesomeIcon icon={faTwitter} className="header__social" />
+            <a href="#">
+              <img src={twitter} alt="twitter" className="header__social" />
+            </a>
 
-            <img src={etherScan} alt="ether scan" className="header__social" />
-            <img src={openSea} alt="open sea" className="header__social" />
+            <a href="#">
+              <img
+                src={etherScan}
+                alt="ether scan"
+                className="header__social"
+              />
+            </a>
+
+            <a href="#">
+              <img src={openSea} alt="open sea" className="header__social" />
+            </a>
           </div>
 
           <a

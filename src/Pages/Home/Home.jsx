@@ -24,71 +24,75 @@ const Home = () => {
 
   return (
     <div className="home">
-      <div className="home__section1">
-        <img src={arrow} alt="" className="arrow-down" />
-        <Splide
-          hasTrack={false}
-          options={{
-            width: "100%",
-            perPage: 1,
-            perMove: 1,
-            arrows: true,
-            pagination: true,
-            height: "600px",
-            type: "loop",
-            drag: true,
-          }}
-          onMove={(splide, prev, next) => {
-            setSlideNumber(prev + 1);
-          }}
-        >
-          <SplideTrack>
-            <SplideSlide>
-              <div className="img-wrapper">
-                <img src={img} alt="" />
-                <h1>Buddhalo</h1>
-              </div>
-            </SplideSlide>
-            <SplideSlide>
-              <div className="img-wrapper">
-                <img src={img1} alt="" />
-              </div>
-            </SplideSlide>
-            <SplideSlide>
-              <div className="img-wrapper">
-                <img src={img2} alt="" />
-              </div>
-            </SplideSlide>
-            <SplideSlide>
-              <div className="img-wrapper">
-                <img src={img3} alt="" />
-              </div>
-            </SplideSlide>
-            <SplideSlide>
-              <div className="img-wrapper">
-                <img src={img4} alt="" />
-              </div>
-            </SplideSlide>
-            <SplideSlide>
-              <div className="img-wrapper">
-                <img src={img5} alt="" />
-              </div>
-            </SplideSlide>
-          </SplideTrack>
+      <div className="home__section1Wrapper">
+        <div className="home__section1">
+          <a href="#section2" className="arrow-down">
+            <img src={arrow} alt="" />
+          </a>
 
-          <div className="splide__arrows">
-            <button className="splide__arrow splide__arrow--prev">
-              <img src={arrowLeft} alt="" />
-            </button>
-            <h1>{slideNumber}</h1>
-            <button className="splide__arrow splide__arrow--next">
-              <img src={arrowRight} alt="" />
-            </button>
-          </div>
-        </Splide>
+          <Splide
+            hasTrack={false}
+            options={{
+              width: "100%",
+              perPage: 1,
+              perMove: 1,
+              arrows: true,
+              pagination: true,
+              height: "calc(100vh - var(--header-height))",
+              type: "loop",
+              drag: true,
+            }}
+            onMove={(splide, prev, next) => {
+              setSlideNumber(prev + 1);
+            }}
+          >
+            <SplideTrack>
+              <SplideSlide>
+                <div className="img-wrapper">
+                  <img src={img} alt="" />
+                </div>
+              </SplideSlide>
+              <SplideSlide>
+                <div className="img-wrapper">
+                  <img src={img1} alt="" />
+                </div>
+              </SplideSlide>
+              <SplideSlide>
+                <div className="img-wrapper">
+                  <img src={img2} alt="" />
+                </div>
+              </SplideSlide>
+              <SplideSlide>
+                <div className="img-wrapper">
+                  <img src={img3} alt="" />
+                </div>
+              </SplideSlide>
+              <SplideSlide>
+                <div className="img-wrapper">
+                  <img src={img4} alt="" />
+                </div>
+              </SplideSlide>
+              <SplideSlide>
+                <div className="img-wrapper">
+                  <img src={img5} alt="" />
+                </div>
+              </SplideSlide>
+            </SplideTrack>
+
+            <div className="splide__arrows">
+              <button className="splide__arrow splide__arrow--prev">
+                <img src={arrowLeft} alt="" />
+              </button>
+              <h1>{slideNumber}</h1>
+              <button className="splide__arrow splide__arrow--next">
+                <img src={arrowRight} alt="" />
+              </button>
+            </div>
+          </Splide>
+        </div>
       </div>
 
-      <div className="home__section2Wrapper">
+      <div className="home__section2Wrapper" id="section2">
         <section className="home__section2">
           <div className="home__section2Top">
             <div className="home__section2TopContent">
@@ -170,8 +174,9 @@ const Home = () => {
                 <h1 className="home__subheading">质押——换购</h1>
 
                 <p className="home__para">
-                  您将会到我们合作机构，购买NFT并且享受其带来的附加收益。
-                  DAPkwBNd4YdBbiVM4q6zpyVhMXrhui4xH8R5JzrNKTpL
+                  您将会到我们合作机构,购买NFT并且享受其带来的附加收益。
+                  我们会升级更多的隐藏玩法,让您的被动收入和主动学习的能量不断提升,
+                  以获得更多的爱和慈悲。
                 </p>
               </div>
             </div>
@@ -268,7 +273,7 @@ const Home = () => {
 
             <div className="home__section5Member">
               <div className="home__section5MemberDetails">
-                <h1 className="home__section5MemberName">Hayazakllee</h1>
+                <h1 className="home__section5MemberName">Hayazaki.lee</h1>
 
                 <p className="home__section5MemberInfo">联合创始人 + 顾问</p>
               </div>
@@ -276,7 +281,7 @@ const Home = () => {
 
             <div className="home__section5Member">
               <div className="home__section5MemberDetails gold">
-                <h1 className="home__section5MemberName">Nyxon</h1>
+                <h1 className="home__section5MemberName">Nyx.Qin</h1>
 
                 <p className="home__section5MemberInfo">
                   联合创始人 + 美术总监

@@ -12,7 +12,8 @@
 }
 
 :root {
-  --max-width: 1080px;
+  scroll-behavior: smooth;
+  --max-width: 1400px;
 }
 
 main {
