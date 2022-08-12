@@ -78,6 +78,7 @@
   color: #615c58;
   line-height: 52px;
   color: var(--golden-clr);
+  font-weight: 400;
 }
 
 .splide__pagination__page.is-active {
