@@ -150,7 +150,7 @@ const Home = () => {
         <video src={vid} autoPlay muted controls={false} loop playsInline />
       </section>
 
-      <div className="home__section4Wrapper">
+      <div className="home__section4Wrapper" id="section4">
         <section className="home__section4">
           <h1 className="home__heading">路线图</h1>
 
@@ -242,7 +242,7 @@ const Home = () => {
         </section>
       </div>
 
-      <div className="home__section5Wrapper">
+      <div className="home__section5Wrapper" id="section5">
         <section className="home__section5">
           <h1 className="home__heading">团队成员</h1>
 

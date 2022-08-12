@@ -40,7 +40,7 @@ const Header = () => {
         <div className={`header__right ${hamOpen ? "hammenu-show" : ""}`}>
           <div className="header__links">
             <a
-              href="#"
+              href="#section2"
               className="header__link"
               onClick={() => setHamOpen(false)}
             >
@@ -48,7 +48,7 @@ const Header = () => {
             </a>
 
             <a
-              href="#"
+              href="#section4"
               className="header__link"
               onClick={() => setHamOpen(false)}
             >
@@ -56,7 +56,7 @@ const Header = () => {
             </a>
 
             <a
-              href="#"
+              href="#section5"
               className="header__link"
               onClick={() => setHamOpen(false)}
             >
