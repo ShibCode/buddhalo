@@ -24,7 +24,8 @@
 .header__right {
   display: flex;
   align-items: center;
-  gap: 2.5rem;
+  justify-content: space-between;
+  width: 67%;
 }
 
 .header__links,
@@ -94,6 +95,7 @@
     transform: scaleX(0);
     transform-origin: right;
     transition: transform 0.15s;
+    justify-content: initial;
   }
 
   .header__links {

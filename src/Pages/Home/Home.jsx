@@ -6,6 +6,7 @@ import img2 from "../../Assets/img2.png";
 import img3 from "../../Assets/img3.png";
 import img4 from "../../Assets/img4.png";
 import img5 from "../../Assets/img5.png";
+import vid from "../../Assets/vid.mp4";
 
 import imgText from "../../Assets/buddhalo web.png";
 
@@ -145,7 +146,8 @@ const Home = () => {
       </div>
 
       <section className="home__section3">
-        <img src={paused} />
+        {/* <img src={paused} /> */}
+        <video src={vid} autoPlay muted controls={false} loop playsInline />
       </section>
 
       <div className="home__section4Wrapper">
