@@ -7,6 +7,8 @@ import img3 from "../../Assets/img3.png";
 import img4 from "../../Assets/img4.png";
 import img5 from "../../Assets/img5.png";
 
+import imgText from "../../Assets/buddhalo web.png";
+
 import { Splide, SplideSlide, SplideTrack } from "@splidejs/react-splide";
 
 import img from "../../Assets/3.png";
@@ -50,31 +52,37 @@ const Home = () => {
               <SplideSlide>
                 <div className="img-wrapper">
                   <img src={img} alt="" />
+                  <img src={imgText} className="section1__imgText" />
                 </div>
               </SplideSlide>
               <SplideSlide>
                 <div className="img-wrapper">
                   <img src={img1} alt="" />
+                  <img src={imgText} className="section1__imgText" />
                 </div>
               </SplideSlide>
               <SplideSlide>
                 <div className="img-wrapper">
                   <img src={img2} alt="" />
+                  <img src={imgText} className="section1__imgText" />
                 </div>
               </SplideSlide>
               <SplideSlide>
                 <div className="img-wrapper">
                   <img src={img3} alt="" />
+                  <img src={imgText} className="section1__imgText" />
                 </div>
               </SplideSlide>
               <SplideSlide>
                 <div className="img-wrapper">
                   <img src={img4} alt="" />
+                  <img src={imgText} className="section1__imgText" />
                 </div>
               </SplideSlide>
               <SplideSlide>
                 <div className="img-wrapper">
                   <img src={img5} alt="" />
+                  <img src={imgText} className="section1__imgText" />
                 </div>
               </SplideSlide>
             </SplideTrack>
