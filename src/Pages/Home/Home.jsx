@@ -31,7 +31,7 @@ const Home = () => {
           <a href="#section2" className="arrow-down">
             <img src={arrow} alt="" />
           </a>
-
+          <img src={imgText} className="section1__imgText" />
           <Splide
             hasTrack={false}
             options={{
@@ -52,37 +52,31 @@ const Home = () => {
               <SplideSlide>
                 <div className="img-wrapper">
                   <img src={img} alt="" />
-                  <img src={imgText} className="section1__imgText" />
                 </div>
               </SplideSlide>
               <SplideSlide>
                 <div className="img-wrapper">
                   <img src={img1} alt="" />
-                  <img src={imgText} className="section1__imgText" />
                 </div>
               </SplideSlide>
               <SplideSlide>
                 <div className="img-wrapper">
                   <img src={img2} alt="" />
-                  <img src={imgText} className="section1__imgText" />
                 </div>
               </SplideSlide>
               <SplideSlide>
                 <div className="img-wrapper">
                   <img src={img3} alt="" />
-                  <img src={imgText} className="section1__imgText" />
                 </div>
               </SplideSlide>
               <SplideSlide>
                 <div className="img-wrapper">
                   <img src={img4} alt="" />
-                  <img src={imgText} className="section1__imgText" />
                 </div>
               </SplideSlide>
               <SplideSlide>
                 <div className="img-wrapper">
                   <img src={img5} alt="" />
-                  <img src={imgText} className="section1__imgText" />
                 </div>
               </SplideSlide>
             </SplideTrack>

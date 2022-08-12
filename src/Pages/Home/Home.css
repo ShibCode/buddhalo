@@ -104,12 +104,10 @@
 
 .section1__imgText {
   width: 100%;
-  text-transform: uppercase;
-  letter-spacing: 16px;
-  color: rgba(49, 49, 49, 255);
   position: absolute;
-  font-weight: 500;
   z-index: -1;
+  top: 50%;
+  transform: translateY(calc(-50% - 25px));
 }
 
 .img-wrapper img:nth-child(1) {
